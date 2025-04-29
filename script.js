@@ -1,10 +1,11 @@
 function minDate(dates) {
   //write you code here
+	  return [...dates].sort()[0];
 }
 
 // Do not change the code
 
-var dates = [
+//var dates = [
   "2023/03/01",
   "2023/03/02",
   "2023/03/03",
